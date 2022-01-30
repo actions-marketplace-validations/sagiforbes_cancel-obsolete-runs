@@ -1,0 +1,13 @@
+name: 'Cancel obsolete runs'
+description: 'Easiest way to stop obsolete running jobs'
+branding:
+  icon: 'activity'  
+  color: 'green'
+
+inputs:
+  token: 
+    description: PAT that allows list or cancel workflow
+    required: true
+runs:
+  using: 'node16'
+  main: 'dist/index.js'

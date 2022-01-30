@@ -1,0 +1,26 @@
+{
+  "name": "cancel-obsolete-runs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "ncc build -o dist ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sagiforbes/cancel-obsolete-runs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sagiforbes/cancel-obsolete-runs/issues"
+  },
+  "homepage": "https://github.com/sagiforbes/cancel-obsolete-runs#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.0",
+    "@octokit/action": "^3.18.0"
+  }
+}
